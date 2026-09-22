@@ -4,20 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>style-tag</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style.css">    
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
         h2{
             color: red;
+            background-color: blue;
+            padding: 1rem;
         }
         p{
             color: green;
+        }
+        .special-text{
+            color: brown;
+        }
+
+        #title{
+            font-size: xx-large;
+            color: rgb(161, 161, 45);
         }
 
     </style>
 </head>
 <body>
 
-    <h2>My app</h2>
+    <h2 id="title">My app</h2>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, harum. Asperiores, error?</p>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, harum. Asperiores, error?</p>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, harum. Asperiores, error?</p>
