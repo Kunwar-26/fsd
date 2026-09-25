@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+WAL+Guides&display=swap');
+
+:root{
+    --font-family: "Playwrite BE WAL Guides", cursive;
+}
+
+/* .playwrite-be-wal-guides-regular {
+  font-family: "Playwrite BE WAL Guides", cursive;
+  font-weight: 400;
+  font-style: normal; 
+} */
+
+h1{
+    /* color: red;
+    background-color: black; */
+    width: 100px;
+    padding: 10px;
+    text-decoration: underline wavy green;
+    font-family: var(--font-family);
+}
+
+p{
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
