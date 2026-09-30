@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    padding: 20px;
+    background-color: yellow;
+    overflow: scroll;
+
+}
+
+div{
+    padding: 20px;
+    background-color: red; 
+    /* TODO: This situation is called overflow, the child element is bigger than its parent element */
+    width: 200vw;
+    
+}
